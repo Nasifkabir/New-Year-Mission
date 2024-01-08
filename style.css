@@ -271,3 +271,37 @@
     justify-content: center;
 }
 
+/*footer section styles*/
+
+.footer-section{
+    background: #070211;
+    width: 1510px;
+    height: 609px;
+    
+}
+.location{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+
+}
+.contact-num , .url {
+    text-align: right;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px; /* 166.667% */
+}
+.hr-line{
+    margin-bottom: 250px;
+    background: rgba(255, 255, 255, 0.15);
+    width: 1320px;
+    height: 0.5px;
+}
+.footer-logos{
+    display: inline;
+}
