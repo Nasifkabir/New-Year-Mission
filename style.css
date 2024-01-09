@@ -90,11 +90,10 @@
     font-size: 20px;
     font-style: normal;
     font-weight: 700;
-    line-height: normal;
     text-transform: uppercase;
 }
 .btn:hover {
-    background-color: yellow;
+    background-color: #F9DF78;
 }
 
 .details{
@@ -303,6 +302,7 @@
 /*footer section styles*/
 
 .footer-section{
+    background: rgba(255, 255, 255, 0.15);
     background: #070211;
     width: 1510px;
     height: 609px;
@@ -314,23 +314,55 @@
     font-size: 24px;
     font-style: normal;
     font-weight: 500;
-
+    display: inline-block;
+    margin-left: 100px;
+    margin-bottom: 50px;
 }
-.contact-num , .url {
-    text-align: right;
+.cnurl{
     color: #FFF;
     font-family: Inter;
     font-size: 24px;
     font-style: normal;
     font-weight: 500;
-    line-height: 40px; /* 166.667% */
+    display: inline-block;
+    text-align: right;
+    margin-top: 100px;
+    margin-left: 630px;
 }
-.hr-line{
-    margin-bottom: 250px;
-    background: rgba(255, 255, 255, 0.15);
+.hr-line1{
+    margin-top 100px;
     width: 1320px;
     height: 0.5px;
 }
-.footer-logos{
+.hr-line2{
+    margin-bottom: 60px;
+    width: 1320px;
+    height: 0.5px;
+}
+.copyright{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
     display: inline;
+    margin-left: 94px;
+}
+.uns{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    display: inline;
+    margin-left: 860px;
+
+}
+.footer-logos{
+   margin-left: 600px;
+   padding-top: 50px;
+   padding-bottom: 50px;
+}
+.logos{
+    padding-left: 20px;
 }
