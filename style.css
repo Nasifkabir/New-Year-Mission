@@ -81,6 +81,7 @@
     margin-left: 130px;
 }
 .btn{
+    color: white;
     border: none;
     text-decoration: none;
     margin-left: 130px;
@@ -91,9 +92,10 @@
     font-style: normal;
     font-weight: 700;
     text-transform: uppercase;
+    background: transparent;
 }
 .btn:hover {
-    background-color: #F9DF78;
+    background-color: red;
 }
 
 .details{
@@ -304,7 +306,7 @@
 .footer-section{
     background: rgba(255, 255, 255, 0.15);
     background: #070211;
-    width: 1510px;
+    width: 100%;
     height: 609px;
     
 }
@@ -327,7 +329,7 @@
     display: inline-block;
     text-align: right;
     margin-top: 100px;
-    margin-left: 630px;
+    margin-left: 760px;
 }
 .hr-line1{
     margin-top 100px;
@@ -365,4 +367,8 @@
 }
 .logos{
     padding-left: 20px;
+}
+.logo-item{
+    display: flex;
+    
 }
